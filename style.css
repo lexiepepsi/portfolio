@@ -1,0 +1,281 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #cce7ff;
+	font-family: "Magra", sans-serif;
+	color: #007ae6;
+	}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    background-color: #66b8ff;
+}
+
+a:visited {
+	color: #007ae6;
+}
+
+a:link {
+	color: #007ae6;
+}
+
+.bodywrap {
+	margin: 200px;
+
+}
+
+.header {
+	font-size: 90px;
+	text-align: left;
+}
+
+.header p {
+	font-size: 60px;
+}
+
+.stuff-i-do {
+	text-align: right;
+	font-size: 30px;
+	border-bottom: 1px #99cfff solid;
+	padding-bottom: 50px;
+}
+
+.bold {
+	color: #ff3300;
+}
+
+.nav {
+	margin-top: 20px;
+	color: #33a0ff;
+}
+
+.nav li {
+	float: left;
+	padding: 0px 20px;
+}
+
+
+/*ABOUT PAGE
+*/
+
+.nav-about li {
+	float: right;
+	padding: 0px 20px;
+	color: #33a0ff;
+	clear: left;
+}
+
+.left {
+	float: left;
+	width: 25%;
+}
+
+
+.right {
+	float: left;
+	width: 75%;
+	text-align: right;
+	font-size: 25px;
+	padding-left: 100px;
+	padding-top: 40px;
+}
+
+.headshot {
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	background-image: url("baby2.jpg");
+	background-position: center;
+	background-size: cover;
+    }
+
+
+/*ART PAGE
+*/
+.art-body {
+	margin: 100px;
+	margin-top: 120px;
+}
+
+.nav-art li {
+	float: right;
+	padding: 0px 20px;
+}
+
+.art-head {
+	margin-left: 15px;
+	margin-bottom: 25px;
+	font-size: 50px;
+}
+
+/*.layer {
+	background-color: rgba(0, 122, 230, 0.5);
+	width: 100%;
+	height: 100%;
+	color: #007ae6;
+	font-size: 30px;
+	text-align: center;
+}
+*/
+
+.imgcontain {
+	float: left;
+	width: 270px;
+	height: 270px;
+	margin: 15px;
+	border-radius: 270px;
+}
+
+.paint {
+	background-image: url("paint.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.book {
+	background-image: url("book.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.stop-motion {
+	background-image: url("lite.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.edit {
+	background-image: url("trees.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.reebok {
+	background-image: url("reebok.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.high-school {
+	background-image: url("still-life.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.motion {
+	background-image: url("motion.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.fake-site {
+	background-image: url("fake.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.sets {
+	background-image: url("sets.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.collect {
+	background-image: url("collect.png");
+	background-size: cover;
+	background-position: center;
+}
+
+@media all and (max-width: 1400px) {
+	.imgcontain {
+		width: 250px;
+		height: 250px;
+		margin: 13px;
+		border-radius: 250px;
+	}
+}
+
+@media all and (max-width: 1300px) {
+	.imgcontain {
+		width: 220px;
+		height: 220px;
+		margin: 10px;
+		border-radius: 200px;
+	}
+}
+
+@media all and (max-width: 1160px) {
+	.imgcontain {
+		width: 190px;
+		height: 190px;
+		margin: 8px;
+		border-radius: 190px;
+	}
+}
+
+@media all and (max-width: 1030px) {
+	.imgcontain {
+		width: 160px;
+		height: 160px;
+		margin: 6px;
+		border-radius: 160px;
+	}
+}
+
+@media all and (max-width: 890px) {
+	.imgcontain {
+		width: 130px;
+		height: 130px;
+		margin: 4px;
+		border-radius: 130px;
+	}
+}
+
+@media all and (max-width: 750px) {
+	.art-head {
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.nav-art li {
+	float: none;
+	text-align: center;
+	}
+
+	.imgcontain {
+	float: left;
+	width: 220px;
+	height: 220px;
+	margin: 10px;
+	border-radius: 220px;
+	}
+}
+
+@media all and (max-width: 680px) {
+	.imgcontain {
+	float: left;
+	width: 160px;
+	height: 160px;
+	margin: 6px;
+	border-radius: 160px;
+	}
+}
+
+@media all and (max-width: 535px) {
+	.imgcontain {
+	float: left;
+	width: 220px;
+	height: 220px;
+	margin: 10px;
+	border-radius: 220px;
+	}
+
+	.art-head {
+		font-size: 40px;
+	}
+}
