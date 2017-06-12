@@ -279,3 +279,12 @@ a:link {
 		font-size: 40px;
 	}
 }
+
+/*DESIGN PAGE*/
+/*Testing using bootstrap on this page.*/
+
+.designpagehead {
+	margin-top: 150px;
+	font-size: 100px;
+}
+
