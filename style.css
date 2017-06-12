@@ -296,3 +296,20 @@ a:link {
 
 /*When i resize I don't like how header pushes to left with no padding and how nav bar drops below. Maybe nav should be at top?
 */
+
+.cradle {
+	background-image: url("cradle.png");
+	height: 300px;
+}
+
+.interactive {
+
+}
+
+.collab {
+
+}
+
+.guides {
+
+}
