@@ -63,26 +63,23 @@ a:link {
 /*ABOUT PAGE
 */
 
+.abouthead {
+	margin-top: 100px;
+	font-size: 50px;
+}
+
 .nav-about li {
 	float: right;
-	padding: 0px 20px;
-	color: #33a0ff;
-	clear: left;
+	padding: 16.5px 20px;
+	font-size: 17px;
 }
 
-.left {
-	float: left;
-	width: 25%;
+.about-content {
+	margin-top: 50px;
 }
 
-
-.right {
-	float: left;
-	width: 75%;
-	text-align: right;
-	font-size: 25px;
-	padding-left: 100px;
-	padding-top: 40px;
+.about-text {
+	font-size: 20px;
 }
 
 .headshot {
@@ -293,9 +290,6 @@ a:link {
 	padding: 16.5px 20px;
 	font-size: 17px;
 }
-
-/*When i resize I don't like how header pushes to left with no padding and how nav bar drops below. Maybe nav should be at top?
-*/
 
 .design-img {
 	height: 320px;
