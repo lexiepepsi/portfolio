@@ -293,3 +293,6 @@ a:link {
 	padding: 16.5px 20px;
 	font-size: 17px;
 }
+
+/*When i resize I don't like how header pushes to left with no padding and how nav bar drops below. Maybe nav should be at top?
+*/
